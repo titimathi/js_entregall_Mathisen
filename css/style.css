@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+nav a{
+    color: #dc3545;
+    text-align: center
+}
+#logo{
+    height:100%; 
+}
+nav img{
+    width: 50px;
+}
+.container-fluid{
+    display: flex;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #dc3545;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
