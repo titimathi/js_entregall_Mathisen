@@ -6,19 +6,27 @@
     margin: 10px;
     box-sizing: border-box;
 }
-nav a{
-    color: #dc3545;
-    text-align: center
+.botonera{
+
 }
-#logo{
-    height:100%; 
-}
-nav img{
+.botonera img{
     width: 50px;
-}
-.container-fluid{
     display: flex;
+    text-decoration: none;
 }
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color:#dc3545;
+    max-width: 50px;    
+}
+.card img{
+    max-width:250px;
+
+}
+
 footer {
     margin-top: auto;
     text-align: center;
